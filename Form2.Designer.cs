@@ -63,7 +63,6 @@ namespace gettoken
             // 
             // button1
             // 
-            this.button1.Image = global::DellWarrantyCheck.Properties.Resources.outline_done_black_24dp;
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button1.Location = new System.Drawing.Point(4, 88);
             this.button1.Name = "button1";
@@ -129,7 +128,6 @@ namespace gettoken
             this.DG1.Name = "DG1";
             this.DG1.ReadOnly = true;
             this.DG1.RowHeadersVisible = false;
-            this.DG1.RowTemplate.Height = 25;
             this.DG1.Size = new System.Drawing.Size(1482, 629);
             this.DG1.TabIndex = 5;
             this.DG1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.DG1_KeyDown);
@@ -212,7 +210,6 @@ namespace gettoken
             // 
             // button3
             // 
-            this.button3.Image = global::DellWarrantyCheck.Properties.Resources.outline_get_app_black_24dp;
             this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button3.Location = new System.Drawing.Point(189, 9);
             this.button3.Name = "button3";
@@ -234,7 +231,6 @@ namespace gettoken
             // 
             // button5
             // 
-            this.button5.Image = global::DellWarrantyCheck.Properties.Resources.outline_delete_outline_black_24dp;
             this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button5.Location = new System.Drawing.Point(189, 88);
             this.button5.Name = "button5";
@@ -256,7 +252,6 @@ namespace gettoken
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::DellWarrantyCheck.Properties.Resources.dell_logo;
             this.pictureBox2.Location = new System.Drawing.Point(1277, 8);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(197, 153);
@@ -266,7 +261,6 @@ namespace gettoken
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::DellWarrantyCheck.Properties.Resources.sem_ama;
             this.pictureBox1.Location = new System.Drawing.Point(804, 8);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(107, 103);

@@ -312,9 +312,15 @@ namespace gettoken
 
         private void Form2_Load(object sender, EventArgs e)
         {
-            
-            String id = "l7d7c8dd222f534b16b8e55478843079de";
-            String secret = "f0d31639cf0d4bb18b42ece06868ad57";
+            dynamic resp3;
+            string path_2 = Application.StartupPath + "/key.json";
+            using (StreamReader jsonStream = File.OpenText(path_2))
+            {
+                var json2 = jsonStream.ReadToEnd();
+                resp3 = JObject.Parse(json2);
+            }
+            String id = resp3.id;
+            String secret = resp3.secret;
             DateTime Tiempo = DateTime.Now;
             dynamic resp2;
 
